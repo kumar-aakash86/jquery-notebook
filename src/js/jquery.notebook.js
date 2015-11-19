@@ -612,8 +612,7 @@
                 actions.setPlaceholder.call(this, {
                     focus: false
                 });
-                var elem = this;
-                bubble.clear.call(elem);
+                bubble.clear.call(this);
             }
         },
         events = {
